@@ -63,6 +63,9 @@ namespace Empleado_Prueba.Controllers
             }
         }
 
+
+
+
         [HttpGet]
         [Route("getAll")]
         public async Task<ActionResult<List<Empleado>>> GetEmpleados()
